@@ -28,3 +28,7 @@
 * React Redux & Redux Toolkit s přednačteným state
 * Použití React Portálu pro vykreslení částí aplikace kdekoliv na stránce
 * React aplikace využívající custom WordPress API
+
+## Živá ukázka
+
+https://frontendisti.mejta.net/
