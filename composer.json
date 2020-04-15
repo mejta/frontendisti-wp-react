@@ -1,0 +1,15 @@
+{
+  "name": "mejta/frontendisti-wp-react",
+  "authors": [
+    {
+      "name": "Daniel Mejta",
+      "email": "daniel@mejta.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WPReact\\": "app/"
+    }
+  },
+  "require": {}
+}

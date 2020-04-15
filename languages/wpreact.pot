@@ -1,0 +1,43 @@
+# Copyright (C) 2020 Daniel Mejta
+# This file is distributed under the same license as the Frontendisti - WordPress React plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontendisti - WordPress React 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-react\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-15T16:58:37+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: wpreact\n"
+
+#. Plugin Name of the plugin
+msgid "Frontendisti - WordPress React"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.mejta.net/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Showcase of how to use React in WordPress website"
+msgstr ""
+
+#. Author of the plugin
+msgid "Daniel Mejta"
+msgstr ""
+
+#: assets/app.jsx:22
+#: build/app.bad1c1e4ab2948cd8f9b.js:1
+msgid "This is a root of the application"
+msgstr ""
+
+#: assets/components/ExamplePortalApp.jsx:29
+#: build/3.6ac8b204df7449a16d23.js:1
+#: build/3.6ac8b204df7449a16d23.js:29
+msgid "Change"
+msgstr ""

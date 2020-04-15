@@ -1,0 +1,18 @@
+{
+    "translation-revision-date": "2020-04-15 16:47+0200",
+    "generator": "WP-CLI\/2.3.0",
+    "source": "build\/app.22b28457cb15ed5e3b4a.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "cs",
+                "plural-forms": "nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);"
+            },
+            "This is a root of the application": [
+                "Toto je root aplikace"
+            ]
+        }
+    }
+}
