@@ -22,6 +22,7 @@ export const setAppName = createAsyncThunk('app/setAppName', async (name) => {
 
     throw new Error('Cannot set app name');
   } catch (e) {
+    // eslint-disable-next-line no-console
     console.error(e);
   }
 });

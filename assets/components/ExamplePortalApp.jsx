@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import PT from 'prop-types';
 import { connect } from 'react-redux';
 import { __ } from '@wordpress/i18n';
+import classnames from 'classnames';
 import styles from './ExamplePortalApp.module.scss';
 import { getAppName, setAppName } from '../store/app';
 
@@ -14,21 +15,26 @@ const ExamplePortalApp = ({ name, setAppName }) => {
     setNewAppName(event.target.value);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     setAppName(newAppName);
+    event.preventDefault();
   };
 
   return (
-    <div className={styles.main}>
+    <div>
       <h1>
         {name}
       </h1>
-      <p>
-        <input value={newAppName} onChange={handleSetNewAppName} />
-        <button type="button" onClick={handleSubmit}>
+      <form className={classnames(styles.form)} onSubmit={handleSubmit}>
+        <input
+          value={newAppName}
+          onChange={handleSetNewAppName}
+          className={classnames(styles.input)}
+        />
+        <button type="submit">
           {__('Change', 'wpreact')}
         </button>
-      </p>
+      </form>
     </div>
   );
 };

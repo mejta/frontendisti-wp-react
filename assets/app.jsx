@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <h1>
-        {__('This is a root of the application', 'wpreact')}
+        {__('This is the root of the application', 'wpreact')}
       </h1>
       <Suspense fallback={<div />}>
         <ExampleSubapp />
