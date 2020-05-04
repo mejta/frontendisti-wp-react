@@ -1,5 +1,9 @@
 # Ukázka použití Reactu ve WordPressu pro frontendisti.cz
 
+## Přednáška na Frontendisti.cz
+
+https://www.youtube.com/watch?v=2q5P2tqGcIA
+
 ## Předpoklady
 
 1. MacOS, Windows nebo Linux
